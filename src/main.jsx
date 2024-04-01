@@ -58,7 +58,7 @@ class App extends Component {
           </blockquote>
 
           <section className="card-footer d-flex justify-content-between">
-            <a href={"twitter.com/intent/tweet?text=" + this.state.quote.content} id="tweet-quote">
+            <a href={"https://twitter.com/intent/tweet?text=" + this.state.quote.content} id="tweet-quote">
               <img src="/X.png" alt="X logo" className="bg-dark rounded" style={{height: 32, width: 32}}/>
             </a>
             <button type="button" id="new-quote" className="btn btn-dark" onClick={this.fetchData}>New Quote</button>
