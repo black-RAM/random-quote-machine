@@ -59,7 +59,7 @@ class App extends Component {
 
           <section className="card-footer d-flex justify-content-between">
             <a href={"https://twitter.com/intent/tweet?text=" + this.state.quote.content} id="tweet-quote">
-              <img src="/X.png" alt="X logo" className="bg-dark rounded" style={{height: 32, width: 32}}/>
+              <img src="/random-quote-machine/X.png" alt="X logo" className="bg-dark rounded" style={{height: 32, width: 32}}/>
             </a>
             <button type="button" id="new-quote" className="btn btn-dark" onClick={this.fetchData}>New Quote</button>
           </section>
@@ -71,5 +71,3 @@ class App extends Component {
 
 const root = createRoot(document.getElementById("root"))
 root.render(<App />)
-
-export default App
